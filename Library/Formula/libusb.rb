@@ -1,6 +1,6 @@
 require 'formula'
 
-class Libusb < Formula
+class Libusbx < Formula
   homepage 'http://www.libusb.org/'
   url 'http://downloads.sourceforge.net/project/libusb/libusb-1.0/libusb-1.0.9/libusb-1.0.9.tar.bz2'
   sha256 'e920eedc2d06b09606611c99ec7304413c6784cba6e33928e78243d323195f9b'

@@ -5,6 +5,8 @@ class Astyle < Formula
   url 'http://downloads.sourceforge.net/project/astyle/astyle/astyle%202.04/astyle_2.04_macosx.tar.gz'
   sha1 '2aa956c4521a1163da6a8be741786fd89c1f39a7'
 
+  head 'https://astyle.svn.sourceforge.net/svnroot/astyle/trunk/AStyle'
+
   def install
     cd 'src' do
       system "make", "CXX=#{ENV.cxx}", "-f", "../build/mac/Makefile"

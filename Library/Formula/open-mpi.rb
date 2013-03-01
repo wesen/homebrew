@@ -23,6 +23,7 @@ class OpenMpi < Formula
   def install
     ENV.cxx11 if build.cxx11?
 
+  def install
     args = %W[
       --prefix=#{prefix}
       --disable-dependency-tracking
